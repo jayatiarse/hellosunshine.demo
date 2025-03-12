@@ -1,0 +1,10 @@
+.git/
+│-- HEAD                 # Points to the current branch
+│-- config               # Repository settings
+│-- description          # Repository description (for bare repos)
+│-- hooks/               # Scripts triggered by Git events
+│-- info/                # Additional repo info
+│-- objects/             # Stores all commits, blobs, and trees
+│-- refs/                # References to branches and tags
+│   ├── heads/           # Branch references
+│   ├── tags/            # Tag references
